@@ -1,6 +1,11 @@
 node_modules/
+logs
+*.log
 .expo/
 dist/
+dist
+dist-ssr
+*.local
 npm-debug.*
 *.jks
 *.p8
@@ -9,9 +14,13 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-
-# macOS
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-
-# Temporary files created by Metro to check the health of the file watcher
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 .metro-health-check*
